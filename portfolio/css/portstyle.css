@@ -1,0 +1,81 @@
+.jumbotron{
+  background-image: url('../images/lap1.jpg');
+  background-size: cover;
+  background-position: right;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+#services{
+    background-image: url('../images/bc4.jpg');
+      background-size: contain;
+      background-position: right;
+      background-repeat:no-repeat;
+
+}
+
+#projects{
+    background-image: url('../images/bc2.jpg');
+      background-size: cover;
+
+
+}
+
+#contact{
+  margin-top: 100px;
+    background-image: url('../images/bg7.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+
+}
+
+
+.card:hover{
+  box-shadow: 10px 10px 54px rgba(90,82,221,0.3);
+  pointer:cursor;
+  transform:scale(1.1);
+transition: 0.5s ease;
+}
+
+.resume{
+  width: 80%;
+}
+
+#resume{
+  text-align: center;
+}
+
+#about p{
+
+padding: 20px;
+font-size: 1.1 rem;
+font-weight: 500;
+}
+
+.card-body ul{
+
+  font-size: 15px;
+  font-weight:lighter;
+}
+
+.resume{
+  border: 5px solid powderblue;
+}
+
+.bttn{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #fff;
+margin: 20px;
+  background-color: #F55050;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s ease;
+}
